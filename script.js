@@ -13,34 +13,6 @@ if (localStorage.getItem('theme') === 'dark') {
     setDarkMode();
   }
 
-  // toggleMode.addEventListener('click', () => {
-  //   if (bodyClass.classList.contains('bg-white')) {
-  //     setDarkMode();
-  //     localStorage.setItem('theme', 'dark');
-  //   } else {
-  //     setLightMode();
-  //     localStorage.setItem('theme', 'light');
-  //   }
-  //   location.reload()
-  // });
-
-  // function setDarkMode() {
-  //   bodyClass.classList.remove('bg-white', 'text-black');
-  //   bodyClass.classList.add('bg-gray-900', 'text-white');
-  //   cardForm.classList.remove('bg-white');
-  //   cardForm.classList.add('bg-gray-800');
-  //   titleForm.classList.add('bg-gray-700');
-  //   descForm.classList.add('bg-gray-700');
-  // }
-
-  // function setLightMode() {
-  //   bodyClass.classList.remove('bg-gray-900', 'text-white');
-  //   bodyClass.classList.add('bg-white', 'text-black');
-  //   cardForm.classList.add('bg-white');
-  //   cardForm.classList.remove('bg-gray-800');
-  //   titleForm.classList.remove('bg-gray-700');
-  //   descForm.classList.remove('bg-gray-700');
-  // }
 
 
 
